@@ -6,9 +6,7 @@ services:
       - "8545:8545"
 
   solidity-contracts:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: bitch:latest
     volumes:
       - ./contracts:/usr/src/app/contracts  # Update this line if necessary
 

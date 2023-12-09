@@ -1,0 +1,5 @@
+cargo:warning=tokio: failed to detect compiler features: output path is not a writable directory
+cargo:rustc-cfg=tokio_no_const_thread_local
+cargo:rustc-cfg=tokio_no_target_has_atomic
+cargo:rustc-cfg=tokio_no_const_mutex_new
+cargo:rustc-cfg=tokio_no_as_fd
